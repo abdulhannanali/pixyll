@@ -1,14 +1,14 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
+title:       Hannan's fascinations
+email:       ali.abdulhannan@gmail.com
+author:      Hannan Ali
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://fascinations.hannanali.tech"
 date_format: "%b %-d, %Y"
 
 # Google services
-google_verification:
+google_verification: AxhZ9PEqDwclQ827jKqeYjZ2dDOdOU6NabKYmIcicvU
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
 google_analytics:
@@ -20,7 +20,7 @@ bing_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
+show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -33,19 +33,19 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: 
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
+facebook_comments: true
+facebook_appid: 239215849863182
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: abdulhannanali
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: computistic
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -57,33 +57,33 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
 share_stumbleupon: false
-share_hackernews: false
+share_hackernews: true
 
 text:
   pagination:
     newer: 'Newer'
     older: 'Older'
   share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
+    text:         'Spread the word!'
+    facebook:     'Spread on Facebook'
+    twitter:      'Spread on Twitter'
+    googleplus:   'Spread on Google+'
+    linkedin:     'Spread on LinkedIn'
+    digg:         'Spread on Digg'
+    tumblr:       'Spread on Tumblr'
+    reddit:       'Spread on Reddit'
+    stumbleupon:  'Spread on StumbleUpon'
+    hackernews:   'Spread on Hacker News'
   post:
     updated:        'Updated'
     minute_read:    'minute read'

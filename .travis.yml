@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+ - 2.3.3
+ - 2.2
+before_install:
+    - ./scripts/nvm.sh
+    - npm install
+script:
+    - ./scripts/cibuild
+after_success:
+    - surge --project ./_site --domain $STAGING_SURGE
+
+
