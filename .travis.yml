@@ -9,7 +9,7 @@ before_install:
 script:
     - ./scripts/cibuild.sh
 after_success:
-    surge --domain hannan-fascinations.surge.sh --project ./_site
+    - ./scripts/deploy-surge.sh
 branches:
     only:
         - master
