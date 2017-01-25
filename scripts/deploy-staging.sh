@@ -1,12 +1,12 @@
 #!/bin/bash
 set -e
 
-if [ "$TRAVIS_PULL_REQUEST" != "false"]; then
+if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
     echo "Skipping deploy; just doing a build."
     exit 0
 fi
 
-# Deploy to firebase for master branch too
+# Deployment to firebase for master branch
 if [ "$TRAVIS_BRANCH" == "master" ]; then
     echo "Deploying to firebase in case of master too"
     firebase deploy --token "$FIREBASE_TOKEN"
