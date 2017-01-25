@@ -10,7 +10,6 @@ before_install:
 script:
     - ./scripts/cibuild.sh
 after_success:
-    - ./scripts/deploy-surge.sh
-    - ./scripts/deploy-firebase.sh
+    - ./scripts/deploy-staging.sh
 cache: bundler # Add caching using bundler
 
