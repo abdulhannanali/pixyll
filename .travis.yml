@@ -5,10 +5,9 @@ rvm:
 node_js: 6
 before_install:
     - bash ./scripts/nvm.sh
-    - npm install
+    - npm install -g surge
 script:
-    - ./scripts/cibuild
+    - ./scripts/cibuild.sh
 after_success:
-    - surge --project ./_site --domain $STAGING_SURGE
-
+    surge --domain hannan-fascinations.surge.sh --project ./_site
 
