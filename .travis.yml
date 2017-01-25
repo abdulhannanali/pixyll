@@ -6,11 +6,11 @@ node_js: 6
 before_install:
     - bash ./scripts/nvm.sh
     - npm install -g surge
+    - npm install -g firebase-tools
 script:
     - ./scripts/cibuild.sh
 after_success:
     - ./scripts/deploy-surge.sh
-branches:
-    only:
-        - master
+    - ./scripts/deploy-firebase.sh
+cache: bundler # Add caching using bundler
 
